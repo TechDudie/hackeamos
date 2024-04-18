@@ -29,13 +29,15 @@ for verbs in VERBS:
 driver = webdriver.Chrome()
 driver.get(URL)
 
+
+questions = int(input(f"{metadata('INFO')} How many questions to complete?"))
 input(f"{metadata('INFO')} === Press Enter to launch answer bot ===")
 
 pronoun = driver.find_element(by=By.ID, value="pronoun-input")
 verb = driver.find_element(by=By.ID, value="verb-input")
 answer = driver.find_element(by=By.ID, value="assignment-answer-input")
 
-while True:
+for i in range(questions + 1):
     if pronoun.text.find("-") != -1 or verb.text.find("-") != -1:
         break
 
