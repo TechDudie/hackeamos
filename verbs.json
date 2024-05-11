@@ -1,0 +1,57 @@
+{
+    "stem_changing": {
+        "cerrar": "e ie",
+        "comenzar": "e ie",
+        "empezar": "e ie",
+        "entender": "e ie",
+        "pensar": "e ie",
+        "perder": "e ie",
+        "preferir": "e ie",
+        "querer": "e ie",
+
+        "conseguir": "e i",
+        "pedir": "e i",
+        "decir": "e i",
+        "repetir": "e i",
+        
+        "almorzar": "o ue",
+        "contar": "o ue",
+        "dormir": "o ue",
+        "encontrar": "o ue",
+        "mostrar": "o ue",
+        "poder": "o ue",
+        "recordar": "o ue",
+        "volver": "o ue",
+
+        "jugar": "u ue"
+    },
+    "goyo": {
+        "hacer": "hago",
+        "traer": "traigo",
+
+        "poner": "",
+        "salir": "",
+        "venir": ""
+    },
+    "irregular": {
+        "ser": [
+            "soy", "eres", "es", "somos", "sois", "son"
+        ],
+        "estar": [
+            "estoy", "estás", "está", "estamos", "estáis", "están"
+        ],
+        "ir": [
+            "voy", "vas", "va", "vamos", "vais", "van"
+        ],
+        "ver": [
+            "veo", "ves", "ve", "vemos", "veis", "ven"
+        ],
+
+        "tener": [
+            "tengo", "tienes", "tiene", "tenemos", "tenéis", "tienen"
+        ],
+        "decir": [
+            "digo", "dices", "dice", "decimos", "decís", "dicen"
+        ]
+    }
+}
