@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 
 import conjugate
 
-metadata = lambda level: f"[Hackeamos] [{datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S.%f')[11:-3]}] [{level}]"
+metadata = lambda level: f"[Hackeamos] [{datetime.utcnow().strftime('%H:%M:%S.%f')[:-3]}] [{level}]"
 
 def log(message: str, level="INFO"):
     print(f"{metadata(level)} {message}")
