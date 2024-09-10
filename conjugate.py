@@ -24,7 +24,7 @@ goyo = lambda verb, pronoun_index, irregular_yo: ((verb[:-2] + "go") if irregula
 def stem_changing(verb, pronoun_index, change_rule):
     stem = verb[:-2]
     k = stem.rfind(change_rule.split(" ")[0])
-    return (stem[:k] + change_rule.split(" ")[1] + stem[k + 1:] + ENDINGS[verb[-2:]][pronoun_index]) if (pronoun_index != 3 or pronoun_index != 4) else ((stem + ENDINGS[verb[-2:]][3]) if pronoun_index != 3 else (stem + ENDINGS[verb[-2:]][4]))
+    return (stem[:k] + change_rule.split(" ")[1] + stem[k + 1:] + ENDINGS[verb[-2:]][pronoun_index]) if (pronoun_index != 3 or pronoun_index != 4) else ((stem + ENDINGS[verb[-2:]][3]) if pronoun_index == 3 else (stem + ENDINGS[verb[-2:]][4]))
 
 def pronoun(noun):
     if find(" y ", noun):
